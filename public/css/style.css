@@ -1,0 +1,15 @@
+body {
+  background: red;
+  color: orange;
+  transform: 1s;
+  animation: wow 3s;
+}
+
+@keyframes wow {
+  0% {
+    color: white;
+  }
+  100% {
+    color: black;
+  }
+}
